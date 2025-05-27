@@ -1,0 +1,74 @@
+.trend {
+  min-height: 25rem;
+  padding: 2rem 1.5rem;
+}
+
+.trend h2 {
+  font-size: 3rem;
+  color: #2c2d51;
+  margin-bottom: 1rem;
+}
+
+.trend-tabs {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.trendtext {
+  font-size: 0.8rem;
+  margin: 0.1rem;
+}
+
+.trend-items {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.card {
+  width: calc(50% - 0.5rem); /* 두 개일 경우 */
+}
+
+.card img {
+  height: 6rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .text {
+  line-height: 1.4;
+  margin-top: 0.5rem;
+  margin-left: 0.2rem;
+}
+
+.gray {
+  color: gray;
+}
+
+.gray1 {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.textline {
+  line-height: 1;
+}
+
+.trendbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.trendbutton button {
+  height: 2rem;
+  width: 80%;
+  max-width: 300px;
+  background-color: #2c2d51;
+  color: aliceblue;
+  font-family: "Pretendard-Regular", sans-serif;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

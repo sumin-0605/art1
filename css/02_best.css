@@ -1,0 +1,32 @@
+.best {
+  height: 25rem;
+}
+.best h2 {
+    font-size: 3rem;
+    color: #2C2D51 ;
+    padding-left: 1.5rem ;
+    padding-top: 2rem;
+}
+.best {
+  position: relative;
+  height: 100%;
+}
+
+
+.best .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.best .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 18rem;
+  height: 18rem;
+}
+
+.best .swiper-slide img {
+  display: block;
+  width: 100%;
+}

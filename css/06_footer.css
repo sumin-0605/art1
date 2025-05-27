@@ -1,0 +1,50 @@
+.company-info {
+  height: 17rem;
+  color: #efff96;
+  padding: 2rem;
+  font-size: 0.8rem;
+  padding-bottom: 0;
+}
+
+.footer {
+  background-color: #2c2d51;
+  height: 26.5rem;
+
+}
+
+.footer ul {
+  text-decoration: none;
+}
+.mainlogoimgfooter {
+  height: 3rem;
+  margin-bottom: 1rem;
+  margin-left: -0.5rem;
+}
+
+.social-links {
+}
+.insta,
+.katalk,
+.facebook {
+  height: 4rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer p {
+  color: #efff96;
+
+}
+
+.f1 {
+  margin-top: 1.4rem;
+}
+.f2 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.f3 {
+  text-align: start;
+  font-size: 0.54rem;
+   margin-left: 1rem;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Pretendard-Regular';
+    background-color: white ;
+    color: #1e1e1e;
+  }
+  .navbar {
+    width: 99vw;
+    height:5rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+  .mainlogo { 
+    width: 10rem;
+    height: 100%;
+
+  }
+  .mainlogoimg {
+    width: 6rem ;
+    height: 3rem;
+    /* margin-top: 1rem;
+    margin-left: 1rem; */
+  }
+  header nav .mainlogo {
+    float: left;
+  }
+  header nav .icons {
+    float: right;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+.search-icon img {
+    width: 2rem;
+}
+.menu-icon img {
+    width: 2rem;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+/* 한글 -  font-family: 'Pretendard-Regular'; */
+/* 영문 - font-family: "DM Serif Text", serif; */
+

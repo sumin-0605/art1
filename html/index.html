@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUEUR - 아티스트 모집</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/00_style.css" />
+    <link rel="stylesheet" href="../css/01_main.css" />
+    <link rel="stylesheet" href="../css/01.1_swip.css" />
+    <link rel="stylesheet" href="../css/02_best.css" />
+    <link rel="stylesheet" href="../css/03_trend.css" />
+    <link rel="stylesheet" href="../css/04_artist.css" />
+    <link rel="stylesheet" href="../css/05_artistjoin.css" />
+    <link rel="stylesheet" href="../css/06_footer.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Pretendard 폰트 추가 (필요 시) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="mainlogo">
+          <img
+            class="mainlogoimg"
+            src="../img/rogo_namsaek_165x80.png"
+            alt="메인로고"
+          />
+        </div>
+        <div class="icons">
+          <div class="search-icon">
+            <img src="../img/icons_search_blue_100x100.png" alt="검색아이콘" />
+          </div>
+          <div class="menu-icon" id="menuToggle">
+            <img
+              src="../img/icons_hbg_blue_100x100.png"
+              alt="햄버거메뉴아이콘"
+            />
+          </div>
+          <!-- 사이드 메뉴 -->
+          <div class="side-menu" id="sideMenu">
+            <div class="mainlogo2">
+              <img
+                class="mainlogoimg2"
+                src="../img/rogo_yellow_165x80.png"
+                alt="사이드메뉴로고"
+              />
+            </div>
+
+            <div class="side-menulist">
+              <ul>
+                <li><a href="#">홈</a></li>
+                <li><a href="#">작품 보기</a></li>
+                <li><a href="#">아티스트</a></li>
+                <li><a href="#">문의하기</a></li>
+                <li><a href="../html/login.html">로그인 / 회원가입</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay"></div>
+      </nav>
+
+      <!-- HERO Swiper -->
+      <div class="swiper swiper-hero">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="hero">
+              <div class="herotextbox">
+                <h1>WELCOME, ARTIST!</h1>
+                <p class="p1">아티스트 모집</p>
+                <p class="p2">
+                  뤼에에서 아티스트 등록하고<br />더 많은 사람들에게 작가님의
+                  작품을 알려세요!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="hero2">
+              <div class="herotextbox2">
+                <h1>ENJOY ART!</h1>
+                <p class="scp1">취향을 채우는 다채로운 선택</p>
+                <p class="scp2">
+                  개성 있는 아티스트와 작품이 가득한 뤼에에서<br />
+                  여러분의 취향대로 미술을 즐기세요!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next hero-next"></div>
+        <div class="swiper-button-prev hero-prev"></div>
+      </div>
+    </header>
+
+    <!-- BEST Swiper -->
+    <section class="best">
+      <h2>BEST</h2>
+      <div class="swiper swiper-best">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../img/art1.jpg" alt="작품1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/art2.jpg" alt="작품2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/art3.jpg" alt="작품3" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/art4.jpg" alt="작품4" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../img/art5.jpg" alt="작품5" />
+          </div>
+        </div>
+        <div class="swiper-pagination best-pagination"></div>
+      </div>
+    </section>
+
+    <!-- TREND Section -->
+    <section class="trend">
+      <h2>TREND</h2>
+      <nav class="trend-tabs">
+        <span class="trendtext"># 핫딜특가</span>
+        <span class="trendtext"># 큐레이터 PICK</span>
+        <span class="trendtext"># GOOD PRICE</span>
+        <span class="trendtext"># 서정적 깊이</span>
+      </nav>
+
+      <div class="trend-items">
+        <div class="card">
+          <img src="../img/art1.jpg" alt="작품1" />
+          <div class="text">
+            <span class="gray">작가</span> 유수민<br />
+            <span class="gray">작품명</span> 명화1<br />
+            <div class="textline">
+              <span class="gray1">300x300</span><br />
+              <span class="gray1">3,000,000 won</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../img/art2.jpg" alt="작품2" />
+          <div class="text">
+            <span class="gray">작가</span> 유수민<br />
+            <span class="gray">작품명</span> 명화2<br />
+            <div class="textline">
+              <span class="gray1">300x300</span><br />
+              <span class="gray1">3,000,000 won</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="trendbutton">
+        <button>더보기</button>
+      </div>
+    </section>
+    <!-- artist  -->
+    <section class="artist">
+      <h2>ARTIST</h2>
+      <div class="artist1">
+        <img src="../img/artist1_250x250.png" alt="화가1" />
+      </div>
+    </section>
+    <!-- ARTIST Recruit -->
+    <section class="artist-recruit">
+      <div class="recruit-info">
+        <img src="../img/artistmojip_375x400.png" alt="아티스트 일러스트" />
+        <div class="cta-buttons">
+          <button class="btn1">등록 아티스트 보기</button>
+          <button class="btn2">등록 안내 및 신청</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="company-info">
+        <div class="footerlogo">
+          <img
+            class="mainlogoimgfooter"
+            src="../img/rogo_yellow_165x80.png"
+            alt="메인로고"
+          />
+        </div>
+        <ul>
+          <li>상호명 : (주)뤼에</li>
+          <li>대표자 : 유수민</li>
+          <li>주소 : [본사] 부산시 어쩌고저쩌고동</li>
+          <li>사업자등록증 : 1004-0-8282-0605</li>
+          <li>고객센터 : 02-400-9315 </li>
+          (평일 10:00~19:00, 휴식시간 12:00~14:00)
+          <li>이메일 : lueur.co.kr</li>
+        </ul>
+        <p class="f1">이용약관 ㅣ 개인정보처리방침 ㅣ 이용가이드</p>
+
+      </div>
+      <div class="social-links">
+       <img class="insta" src="../img/instagramicon.png" alt="인스타그램">
+       <img class="katalk" src="../img/katalkicon.png" alt="카카오톡">
+       <img class="facebook" src="../img/facebookicon.png" alt="페이스북">
+      </div>        
+      <p class="f2">@LUEUR ALL RIGHTS RESERVED</p>
+        <p class="f3">
+          뤼에 플랫폼의 콘텐츠 (이미지, 문자, 화면 등)에 대한 무단 복제, 배포,
+          전송, 게시, 스크롤링/ 스크래핑<br /> 등 행위는 
+          저작권법, 부정경쟁 방지 및 영업 비밀번호에 관한 법률 등 관련 법령에
+          의해 금지됩니다.
+        </p>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Swiper 초기화 -->
+    <script>
+      const swiperHero = new Swiper(".swiper-hero", {
+        navigation: {
+          nextEl: ".hero-next",
+          prevEl: ".hero-prev",
+        },
+        loop: true,
+      });
+
+      const swiperBest = new Swiper(".swiper-best", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".best-pagination",
+          clickable: true,
+        },
+        loop: true,
+      });
+    </script>
+
+    <!-- 사이드메뉴바 -->
+    <script>
+      const menuToggle = document.getElementById("menuToggle");
+      const sideMenu = document.getElementById("sideMenu");
+      const overlay = document.getElementById("overlay");
+
+      menuToggle.addEventListener("click", () => {
+        sideMenu.classList.toggle("open");
+        overlay.classList.toggle("show");
+      });
+
+      overlay.addEventListener("click", () => {
+        sideMenu.classList.remove("open");
+        overlay.classList.remove("show");
+      });
+    </script>
+  </body>
+</html>

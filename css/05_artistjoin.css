@@ -1,0 +1,23 @@
+.recruit-info {
+  position: relative;
+}
+
+.cta-buttons {
+  position: absolute;
+  bottom: 3.4rem;
+  left: 1.75rem;
+}
+.btn1, .btn2 {
+    height: 2.7rem;
+    width: 8.7rem;
+}
+.btn1 {
+    background-color: white;
+    border: 0;
+}
+.btn2 {
+    margin-left: 1.85rem;
+    background-color: #2C2D51;
+    color: white;
+    border: 0;
+}

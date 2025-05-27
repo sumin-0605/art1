@@ -1,0 +1,143 @@
+.hero {
+  background-image: url(../img/painting_mobile_375x400.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 25rem;
+  color: azure;
+  font-family: "Pretendard-Regular";
+}
+.herotextbox {
+  height: 25rem;
+  position: relative;
+  padding-left: 1rem;
+  gap: 1rem;
+}
+.herotextbox h1,
+.herotextbox2 h1 {
+  position: absolute;
+  bottom: 6rem;
+  font-family: "DM Serif Text", serif;
+  font-size: 1.5rem;
+}
+
+.herotextbox .p1 {
+  position: absolute;
+  bottom: 3.5rem;
+  font-family: "Pretendard-Regular";
+  font-size: 1.5rem;
+}
+
+.herotextbox .p2 {
+  position: absolute;
+  bottom: 1rem;
+  font-family: "Pretendard-Regular";
+  font-size: 0.8rem;
+}
+
+.herotextbox2 .scp1 {
+    position: absolute;
+    bottom: 3.5rem;
+    font-family: "Pretendard-Regular";
+    font-size: 1.5rem;
+  }
+  
+  .herotextbox2 .scp2 {
+    position: absolute;
+    bottom: 1rem;
+    font-family: "Pretendard-Regular";
+    font-size: 0.8rem;
+  }
+.best {
+  background-color: white;
+}
+.trend {
+  background-color: white;
+}
+.artist-recruit {
+  background-color: white;
+}
+
+.hero2 {
+  background-image: url(../img/painting_mobile2_375x400.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 25rem;
+  color: azure;
+  font-family: "Pretendard-Regular";
+}
+
+.herotextbox2 {
+  height: 25rem;
+  position: relative;
+  padding-left: 1rem;
+  gap: 1rem;
+}
+
+/* 사이드 메뉴 */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px; /* 시작은 화면 밖 */
+  width: 250px;
+  height: 100%;
+  background: #2C2D51 ;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: left 0.3s ease;
+}
+
+.mainlogoimg2 {
+ margin-top: 2rem;
+ margin-left: 1rem;
+ width: 6rem ;
+    height: 3rem;
+}
+.mainlogo2 {
+  background-color: #2C2D51;
+  height: 17%;
+  width: 100%;
+}
+
+/* 오버레이 */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 900;
+  display: none;
+}
+
+/* 열렸을 때 */
+.side-menu.open {
+  left: 0;
+  background-color: white;
+}
+.overlay.show {
+  display: block;
+}
+
+
+.side-menulist ul a {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+
+.side-menulist ul a:hover {
+  color: gray;
+}
+
+.side-menulist ul {
+  line-height: 3rem;
+  margin-left: 1rem;
+  
+  list-style: none;
+}
+
+
+
+/* 한글 -  font-family: 'Pretendard-Regular'; */
+/* 영문 - font-family: "DM Serif Text", serif; */
